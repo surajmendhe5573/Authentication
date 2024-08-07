@@ -7,10 +7,7 @@ This project provides a basic API for user authentication and product management
 - User sign-up and sign-in with JWT authentication
 - Product management operations (Create and Retrieve Products)
 
-# API Endpoints Documentation
-
-## User Endpoints
-# API Documentation
+# API Endpoints 
 
 ## User Endpoints
 
