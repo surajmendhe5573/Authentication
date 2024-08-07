@@ -79,3 +79,15 @@ This project provides a basic API for user authentication and product management
 
 **Description:** Retrieve a list of all products.
 
+
+
+## Set Up Environment Variables
+
+Create a `.env` file in the root directory of your project and add your environment variables. Below is an example `.env` file:
+
+**Example `.env` file:**
+```env
+SecretKey=your_jwt_secret_key
+MONGO_URI=mongodb://localhost:27017/defaultdb
+PORT=3000
+
