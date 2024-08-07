@@ -27,8 +27,6 @@ This project provides a basic API for user authentication and product management
   }
 
 
-
-
 ### Sign In
 
  **URL:** `http://localhost:3000/users/signin`
