@@ -10,32 +10,28 @@ This project provides a basic API for user authentication and product management
 # API Endpoints Documentation
 
 ## User Endpoints
+# API Documentation
+
+## User Endpoints
 
 ### Sign Up
+- **URL:** `http://localhost:3000/users/signup`
+- **Method:** `POST`
+- **Description:** Registers a new user.
+- **Request Body:**
+  ```json
+  {
+    "username": "string",
+    "email": "string",
+    "password": "string"
+  }
 
-**URL:** `/users/signup`
-
-**Method:** `POST`
-
-**Description:** Registers a new user.
-
-**Request Headers:**
-- Content-Type: `application/json`
-
-**Request Body:**
-```json
-{
-  "username": "string",
-  "email": "string",
-  "password": "string"
-}
-```
 
 
 
 ### Sign In
 
-**URL:** `/users/signin`
+ **URL:** `http://localhost:3000/users/signin`
 
 **Method:** `POST`
 
@@ -57,7 +53,7 @@ This project provides a basic API for user authentication and product management
 
 ### Create Product
 
-**URL:** `/products/create`
+ **URL:** `http://localhost:3000/products/create`
 
 **Method:** `POST`
 
@@ -79,16 +75,9 @@ This project provides a basic API for user authentication and product management
 
 ### Fetch Products
 
-**URL:** `/products/fetch`
+ **URL:** `http://localhost:3000/products/fetch`
 
 **Method:** `GET`
 
 **Description:** Retrieve a list of all products.
 
-
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/surajmendhe5573/Authentication.git
