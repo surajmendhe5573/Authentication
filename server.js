@@ -7,7 +7,7 @@ const ProductRoute= require('./routes/productRoute');
 const app = express();
 app.use(express.json()); // parse incoming data
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 7000;
 const MongoURL = process.env.MONGO_URI || 'mongodb://localhost:27017/defaultdb';
 
 // MongoDB Connection
@@ -29,3 +29,5 @@ app.listen(port, () => {
 
 app.use('/users', userRoute);   // user routes
 app.use('/products', ProductRoute);   // product routes
+
+// node project
